@@ -1,0 +1,81 @@
+body{
+    background-image: url("https://i.pinimg.com/1200x/74/33/e4/7433e4b0f4547b112ddce83d9eda3b78.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    width: 400px;
+    margin: auto;
+    border: 0px;
+    border-radius: 23px;
+    background-color: rgba(93, 125, 154, 0.797);
+    padding: 50px;
+}
+.form h1{
+    text-align: center;
+    color: rgb(240, 239, 239);
+    font-size: 30px;
+    font-style: italic;
+}
+.form label{
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.form .input{
+    width: 98%;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgba(93, 125, 154, 0.587);
+    padding-left: 15px;
+
+}
+
+.input:focus{
+    color: aliceblue;
+}
+.input::placeholder{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+.text{
+    color: rgba(194, 194, 205, 0.858);
+}
+.checkbox{
+    font-size: 10px;
+}
+.or{
+    color: aliceblue;
+    text-align: center;
+}
+.btn .google{
+    width: 40px;
+    border-radius: 100%;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 105%;
+    border-radius: 30px;
+    font-size: 18px;
+    gap: 10px;
+    font-weight: bold;
+    border: none;
+}
+.btn2{
+    width: 105%;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    font-style: italic;
+    background-color: rgba(17, 17, 230, 0.911);
+    color: aliceblue;
+}

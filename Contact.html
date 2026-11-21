@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <style>
+        .form{
+            width: 400px;
+            margin: auto;
+            padding: 40px;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+        .title{
+            color: red;
+            text-shadow: 1px 1px gray, 2px 2px red;
+            text-decoration: underline;
+        }
+        .form label{
+            color: gray;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .form input::placeholder{
+            
+            font-style: italic;
+            font-size: 20px;
+            color: rgb(15, 79, 134);
+        }
+        .form input{
+            width: 98%;
+            color: aliceblue;
+            font-size: 25px;
+            border-radius: 20px;
+            border: none;
+            padding-left: 10px;
+            background-color: rgba(91, 96, 101, 0.129);
+        }
+        .btn{
+            margin-left: 140px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form class="form">
+        <h1 class="title"><i>Contact Form</i></h1>
+
+        <label >Enter FirstName</label><br>
+        <input type="text" name="firstname" id=""><br><br>
+
+        <label >Enter LastName</label><br>
+        <input type="text" name="firstname" placeholder="Enter LastName" id=""><br><br>
+
+        <label >Enter Email</label><br>
+        <input type="email" name="lastname" id=""><br><br> 
+
+        <label >Enter Password</label><br>
+        <input type="password" name="email" id=""><br><br>
+
+        <label>Text Message</label><br>
+        <textarea name="text" id="">
+
+            
+
+        </textarea><br><br>
+        <button class="btn">Submit</button>
+    </form>
+
+</body>
+</html>
