@@ -64,3 +64,21 @@ body{
     border: none;
     border-radius: 100%;
 }
+.main-profile{
+    width: 60vw;
+    height: 92vh;
+    margin: auto;
+}
+.cover-img{
+    width: 100%;
+    height: 53%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: red;
+    overflow: hidden;
+}
+.cover-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
